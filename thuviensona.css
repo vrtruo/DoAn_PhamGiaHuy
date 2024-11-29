@@ -1,0 +1,243 @@
+  /* Phần Đầu */
+  .phandau {
+    background-color: rgb(29, 29, 168);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .tieude {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .text h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .text h2 {
+    font-size: 1rem;
+  }
+  
+  .building {
+    width: 100px;
+  }
+  
+
+
+
+  /* Menu Thư Viện */
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #b7ff00;
+  }
+  
+  .nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+
+
+  /* Thanh Tìm Kiếm*/
+  .thanhtimkiem {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: #5000ef;
+  }
+  
+  .thanhtimkiem select, .thanhtimkiem input {
+    padding: 5px;
+    font-size: 0.875rem;
+  }
+  
+  .thanhtimkiem button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+
+
+
+  /* Phần Giữa */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+
+
+
+
+  /*Thông Tin Thư Viện */
+  .thuviensona-essentials {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .thuviensona-essentials h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .essentials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .essential-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    color: #2c3e50;
+  }
+  
+  .essential-item .icon {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  
+
+
+  /* Khái Quát Nội Dung Về Thư Viện */
+  .online-resources {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .online-resources h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  .online-resources p {
+    color: #000000;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  }
+  
+  .resources-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .resource-item {
+    width: 250px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .resource-item h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .resource-item p {
+    font-size: 0.875rem;
+  }
+  
+
+
+  /* Phần Cuối */
+  .footer-sdz {
+    background-color: #003a78;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.cuoitrang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-left {
+  text-align: center;
+ 
+}
+
+.footer-left .logo {
+  max-width: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.footer-center {
+    text-align: center;
+    flex: 5;
+    padding: 0 20px;
+}
+
+.footer-center p {
+    margin: 5px 0;
+}
+
+.footer-center a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-center a:hover {
+    text-decoration: underline;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right p {
+  margin: 5px 0;
+}
+
+
+
+
+
+
